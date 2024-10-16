@@ -159,29 +159,47 @@ td img {
     margin: 0 8px;
 }
 
-/*-----------
+/*---------------
 Media
-------------*/
-@media(max-width: 1200px) {
+----------------*/
+
+@media (max-width: 1200px) {
     .table-content {
         width: 90%;
     }
 }
 
-@media(max-width: 910px) {
+@media (max-width: 910px) {
     .table-content {
         width: 100%;
     }
 }
 
-@media(max-width: 549px) {
+@media (max-width: 603px) {
     body {
-        width: auto;
-        padding: 0;
-        margin: 20px 0;
+        padding: 5px;
+        margin: 0;
     }
 
     .table-content {
-        width: min-content;
+        padding: 10px;
+        width: 100%;
+    }
+    
+    th, td {
+        font-size: 10px;  
+    }
+
+    td img {
+        width: 40px;  
+    }
+
+    .btn { 
+        padding: 10px;  
+        font-size: 10px; 
+    }
+
+    .btn-group {
+        gap: 4px;
     }
 }
